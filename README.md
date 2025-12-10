@@ -116,6 +116,20 @@ Fit a **linear regression** on the last 90 days of total journeys and predict th
 
 ---
 
+## 7-Day Forecast Results
+
+![7-Day Forecast](Assets/image6.png)
+
+**Finding:** The forecast uses **Linear Regression** trained on the last 90 days of historical data to predict total passenger journeys for the next 7 days. Key components include:
+- **Historical Data (Blue)**: Total journeys from the last 90 days
+- **Forecast (Red)**: Predicted values for the next 7 days
+- **Confidence Band (Shaded Red)**: ±1 standard deviation uncertainty range
+- **Forecast Start Line (Gray Dashed)**: Marks the transition from historical to forecasted data
+
+This simple model captures the recent trend and provides a reasonable short-term outlook for planning purposes.
+
+---
+
 ## Methods Used
 
 | Method | Purpose |
